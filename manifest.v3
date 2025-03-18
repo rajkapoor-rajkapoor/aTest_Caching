@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="webappLoad">yes</value>
+  <value name="reloadWithDependentPackage">yes</value>
+  <value name="name">aTest_Caching</value>
+  <value name="build">10.7.0.0.1022351862</value>
+  <null name="description"/>
+  <value name="time">2022-06-29 13:30:27 IST</value>
+  <value name="jvm_version">1.8.0_322</value>
+  <value name="publisher">SAG-3HXQKG3</value>
+  <value name="patch_nums"></value>
+</Values>
