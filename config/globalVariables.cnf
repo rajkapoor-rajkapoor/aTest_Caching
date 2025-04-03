@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="globalVariables" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">mycloud.user</value>
+        <value name="value">ABCKTEST</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">mycloud.password</value>
+        <value name="value">ABCTEST</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">number1</value>
+        <value name="value">10</value>
+        <value name="isSecure">false</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">number2</value>
+        <value name="value">gvhandle.number2</value>
+        <value name="isSecure">true</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
