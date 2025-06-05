@@ -10,12 +10,12 @@
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">mycloud.user</value>
-        <value name="value">ABCKTEST</value>
+        <value name="value">6767</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">mycloud.password</value>
-        <value name="value">ABCTEST</value>
+        <value name="value">222</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
