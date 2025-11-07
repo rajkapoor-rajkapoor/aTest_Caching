@@ -6,26 +6,29 @@
     <record name="DataStoreParams" javaclass="com.wm.data.ISMemDataImpl">
       <value name="fileName">config/txnPassStore.dat</value>
     </record>
+    <value name="MasterPasswordClass">com.webmethods.sc.security.passman.impl.masterpw.AesEcbP5MasterPassword</value>
     <record name="MasterPwParams" javaclass="com.wm.data.ISMemDataImpl">
+      <value name="fileName">config/ae256mpwd.dat</value>
       <value name="repeatLimit">3</value>
-      <value name="fileName">config/empw.dat</value>
     </record>
-    <value name="MasterPasswordClass">com.webmethods.sc.security.passman.impl.masterpw.entrust.EntrustAesMasterPassword</value>
     <record name="EncryptorInfo" javaclass="com.wm.data.ISMemDataImpl">
-      <value name="DefaultEncryptorCode">EntrustAes</value>
-      <value name="SanityEncryptorCode">EntrustAes</value>
+      <value name="DefaultEncryptorCode">AesEcbPkcs5</value>
+      <value name="SanityEncryptorCode">AesEcbPkcs5</value>
       <array name="EncryptorList" type="record" depth="1">
         <record javaclass="com.wm.data.ISMemDataImpl">
           <value name="EncryptorClass">com.webmethods.sc.security.passman.impl.encryption.EncryptorImpl</value>
+          <record name="EncryptorParams" javaclass="com.wm.data.ISMemDataImpl">
+          </record>
         </record>
         <record javaclass="com.wm.data.ISMemDataImpl">
           <value name="EncryptorClass">com.webmethods.sc.security.passman.impl.encryption.DefaultEncryptor</value>
+          <record name="EncryptorParams" javaclass="com.wm.data.ISMemDataImpl">
+          </record>
         </record>
         <record javaclass="com.wm.data.ISMemDataImpl">
-          <value name="EncryptorClass">com.webmethods.sc.security.passman.impl.encryption.entrust.EntrustEncryptor</value>
-        </record>
-        <record javaclass="com.wm.data.ISMemDataImpl">
-          <value name="EncryptorClass">com.webmethods.sc.security.passman.impl.encryption.entrust.EntrustAesEncryptor</value>
+          <value name="EncryptorClass">com.webmethods.sc.security.passman.impl.encryption.AesEcbP5Encryptor</value>
+          <record name="EncryptorParams" javaclass="com.wm.data.ISMemDataImpl">
+          </record>
         </record>
       </array>
     </record>
