@@ -4,13 +4,18 @@
   <record javaclass="com.wm.data.ISMemDataImpl">
     <array name="globalVariables" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="key">number2</value>
+        <value name="value">gvhandle.number2</value>
+        <value name="isSecure">true</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">mycloud.user</value>
-        <value name="value">ABCKTEST</value>
+        <value name="value">6767</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">mycloud.password</value>
-        <value name="value">ABCTEST</value>
+        <value name="value">5555</value>
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
@@ -19,11 +24,6 @@
         <value name="isSecure">false</value>
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
-        <value name="key">number2</value>
-        <value name="value">gvhandle.number2</value>
-        <value name="isSecure">true</value>
-      </record>
-     <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="key">num2</value>
         <value name="value">432</value>
         <value name="isSecure">false</value>
